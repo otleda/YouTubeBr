@@ -1,0 +1,78 @@
+/* ---- --- --  RESET BASIC  -- --- ---- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+   background: none;
+   border: none;
+}
+.icons {
+   width: 18px;
+}
+
+/* ---- --- --  HEADER  -- --- ---- */
+.header {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 56px;
+   justify-content: space-between;
+   background: blueviolet;
+}
+.content {
+   height: auto;
+   display: flex;
+}
+
+/* --BLOCO A-- */
+.content:nth-child(1) {
+   display: flex;
+   justify-content: space-around;
+   padding: 1em;
+   width: 20%;
+   background-color: chocolate;
+}
+.content:nth-child(1) button {
+   margin-right: 20px;
+}
+.logomarca {
+   display: flex;
+   justify-content: baseline;
+}
+.logomarca span {
+   font-weight: bold;
+}
+.logomarca .sub {
+   font-size: 8px;
+}
+.logo {
+   width: 30px;
+   margin-right: 5px;
+}
+
+
+.content:nth-child(2) {
+   width: 60%;
+   background-color: crimson;
+}
+.content:nth-child(2) input {
+   width: 90%;
+   padding: .5em;
+   border: none;
+   border-radius: 2px;
+   text-align: star;
+   font-size: 1.em;  
+}
+
+
+.content:nth-child(3) {
+   background-color: rgb(218, 255, 55);
+}

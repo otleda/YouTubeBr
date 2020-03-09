@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138.915" height="138.121" viewBox="0 0 138.915 138.121">
+
+  <style>
+    .search{
+      fill: #606060;
+    }
+  </style>
+
+  <g id="search" class="search" transform="translate(-604 -497)">
+    <path  id="Subtração_1" data-name="Subtração 1" d="M50.5,101A50.513,50.513,0,0,1,30.843,3.969,50.513,50.513,0,0,1,70.157,97.031,50.183,50.183,0,0,1,50.5,101Zm0-89A38.5,38.5,0,1,0,89,50.5,38.544,38.544,0,0,0,50.5,12Z" transform="translate(604 497)"/>
+    <rect id="Retângulo_15" data-name="Retângulo 15" width="73.562" height="21.111" rx="10.555" transform="translate(688.248 570.21) rotate(42)"/>
+  </g>
+</svg>
