@@ -26,7 +26,7 @@ button {
    width: 100%;
    height: 56px;
    justify-content: space-between;
-   background: blueviolet;
+   background: white;
 }
 .content {
    height: auto;
@@ -39,7 +39,6 @@ button {
    justify-content: space-around;
    padding: 1em;
    width: 20%;
-   background-color: chocolate;
 }
 .content:nth-child(1) button {
    margin-right: 20px;
@@ -49,7 +48,8 @@ button {
    justify-content: baseline;
 }
 .logomarca span {
-   font-weight: bold;
+   font-weight: lighter;
+   color: #212121;
 }
 .logomarca .sub {
    font-size: 8px;
@@ -68,14 +68,14 @@ button {
    width: 100%;
    padding: .30em;
    border: none;
-   text-align: star;
-   font-size: 1em;  
+   text-align: start; 
    border: 1px solid #d3d3d3;
    border-top-left-radius: 3px;
    border-bottom-left-radius: 3px;
 }
  ::placeholder {
-    color: #606060;
+    color: #212121;
+    font-size: 1.1em;
  }
 button[type="submit"] {
    display: flex;
@@ -93,12 +93,11 @@ button[type="submit"] {
    display: flex;
    justify-content: space-around;
    width: 20%;
-   background-color: rgb(218, 255, 55);
 }
 .avatar {
    position: relative;
-   width: 50px;
-   height: 50px;
+   width: 30px;
+   height: 30px;
    border-radius: 50%;
 }
 .avatar img {
@@ -106,3 +105,73 @@ button[type="submit"] {
    width: 100%;
    border-radius: 50%;
 }
+
+/* ---- --- -- CONTAINER  -- --- ---- */
+.main-container {
+   position: fixed;
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   margin-top: 56px;
+}
+
+/* SCROLL-CONFIG CHROME */
+::-webkit-scrollbar {
+   width: 2px;
+}
+::-webkit-scrollbar-thumb {
+   background-color: indigo;
+   box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+scroll-container {
+   display: block;
+   height: auto;
+   overflow-y: scroll;
+   scroll-behavior: smooth;
+   scrollbar-width: thin;
+   scrollbar-color: indigo white;
+}
+scroll-page {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 1000px;
+ }
+
+/* ---- --- --  MENU LATERAL  -- --- ---- */
+.container-menu {
+   width: 20%;
+}
+.content-menu {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.left-menu {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   border-bottom: 1px solid red;
+}
+.left-menu p {
+   font-size: .9em;
+   padding: 1.2em;
+  
+}
+.left-menu img {
+   margin-left: 3em;
+   margin-right: 1em;
+}
+
+/* ---- --- --  MAIN  -- --- ---- */
+.container-main {
+   width: 80%;
+}
+
+
+
+
